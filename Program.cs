@@ -6,7 +6,7 @@ class Program
     {
         Console.WriteLine("<<=============Part 1=============>>");
         // Convert pounds to kilograms
-        Console.WriteLine("Enter a value in pounds (lbs): ");
+        Console.Write("Enter a value in pounds (lbs): ");
         double pounds = double.Parse(Console.ReadLine());
         double kilograms = pounds * 0.453592;
         Console.WriteLine($"Pounds: {pounds} lbs");
@@ -15,7 +15,7 @@ class Program
         Console.WriteLine("=================================");
 
         // Convert miles to kilometers
-        Console.WriteLine("Enter a value in miles (mi): ");
+        Console.Write("Enter a value in miles (mi): ");
         double miles = double.Parse(Console.ReadLine());
         double kilometers = miles * 1.60934;
         Console.WriteLine($"Miles: {miles} mi");
@@ -24,7 +24,7 @@ class Program
         Console.WriteLine("=================================");
 
         // Convert Fahrenheit to Celsius
-        Console.WriteLine("Enter a value in Fahrenheit (°F): ");
+        Console.Write("Enter a value in Fahrenheit (°F): ");
         double fahrenheit = double.Parse(Console.ReadLine());
         double celsius = (fahrenheit - 32) * 5 / 9;
         Console.WriteLine($"Fahrenheit: {fahrenheit} °F");
@@ -73,7 +73,7 @@ class Program
 
         Console.WriteLine("<<=============Part 2=============>>");
         // Print number pattern 1
-        Console.WriteLine("Enter a number for number pattern 1: ");
+        Console.Write("Enter a number for number pattern 1: ");
         int number1 = int.Parse(Console.ReadLine());
         if (number1 <= 0)
         {
@@ -93,8 +93,8 @@ class Program
 
         Console.WriteLine("=================================");
 
-        // Print number pattern 2
-        Console.WriteLine("Enter a number: ");
+        // Print number with a + and has the sum.
+        Console.Write("Enter a number: ");
         int number = int.Parse(Console.ReadLine());
 
         if (number <= 0)
@@ -119,8 +119,8 @@ class Program
 
         Console.WriteLine("=================================");
 
-        // Print number pattern 3
-        Console.WriteLine("Enter a number for number pattern 3: ");
+        // Print number pattern 2
+        Console.Write("Enter a number for number pattern 3: ");
         int number3 = int.Parse(Console.ReadLine());
         if (number3 <= 0)
         {
